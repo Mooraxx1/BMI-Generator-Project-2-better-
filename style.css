@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.totalBOdy{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom left,rgb(232, 235, 239),rgb(0, 85, 196));
+}
+.bmiWindow{
+    min-width: 420px;
+    background-color: rgba(255, 255, 255, 0.3);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 2px 20px 2px rgba(0,0,0,0.5);
+}
+.headerBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    margin: 15px;
+    padding: 10px;
+    gap: 10px;
+    user-select: none;
+}
+.ageBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255,.6);
+    margin: 15px;
+    padding: 10px;
+    gap: 10px;
+    user-select: none;
+}
+.ageInput{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    width: 60px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.genderBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255,.6);
+    margin: 15px;
+    padding: 10px;
+    gap: 10px;
+    user-select: none;
+}
+.genderBtn label {
+    display: flex;
+    align-items: center; 
+    gap: 8px;          
+    cursor: pointer;
+}
+
+.genderBtn input[type="radio"] {
+    cursor: pointer;
+    width: 18px;        
+    height: 18px;
+    margin: 0;         
+}
+.infoBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    user-select: none;
+    background-color: rgb(255, 255, 255,.6);
+    margin: 15px;
+    padding: 10px;
+    gap: 10px;
+    
+}
+.heightBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    padding: 10px;
+    gap: 10px;
+}
+.heightIntake{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    width: 60px;
+    cursor: pointer;
+}
+.weightBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    padding: 10px;
+    gap: 10px;
+}
+.weightIntake{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    width: 60px;
+    cursor: pointer;
+}
+.btnBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.btnCalculate{
+    width: 100%;
+    height: 50px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 2px solid rgb(61, 135, 218);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.resultBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255,.6);
+    margin: 15px;
+    padding: 10px;
+    gap: 10px;
+    user-select: none;
+}
+.bmiResult{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    width: 60px;
+    margin: 5px;
+    user-select: none;
+}
+
+.extraHintBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255,.6);
+    margin: 15px;
+    padding: 10px;
+    gap: 10px;
+    user-select: none;
+}
+.btnCalculate{
+    transition: all 0.2s ease;
+}
+.btnCalculate:hover{
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 4px 12px rgba(0,0,0,.3);
+}
+
+.btnCalculate:active{
+    transform: scale(0.95);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+}
